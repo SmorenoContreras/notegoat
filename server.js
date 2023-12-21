@@ -26,7 +26,10 @@ app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-
+//railway port
+app.listen(port, "0.0.0.0", function(){
+  //...
+});
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
