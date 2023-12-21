@@ -27,9 +27,9 @@ app.get('*', (req, res) =>
 );
 
 //railway port
-app.listen(port, "0.0.0.0", function(){
+//app.listen(port, "0.0.0.0", function(){
   //...
-});
+//});
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
